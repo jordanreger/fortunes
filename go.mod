@@ -1,4 +1,4 @@
-module jordanreger.com/web/fortunes
+module jordanreger.com/fortunes
 
 go 1.22.1
 
