@@ -15,8 +15,8 @@ import (
 
 func main() {
   mux := http.NewServeMux()
-
-	mux.Handle("/fortune/", fortunes.Handler())
+  
+  mux.Handle("/fortune/", fortunes.Handler())
 	
   log.Fatal(http.ListenAndServe(":8080", mux))
 }
